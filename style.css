@@ -13,7 +13,13 @@ body {
     background-color: #1F2937;
     color: #F9FAF8;
     height: 50px;
-    padding: 0 100px 0 100px;
+    padding: 0 100px 0 100px; /*this can be removed */
+    display: flex;
+    justify-content: center;
+}
+
+.nav-content {
+    width: 900px;
 }
 
 .nav-bar ul{
@@ -52,8 +58,14 @@ header {
     background-color:#1F2937;
 }
 
-.header-content {
+.header-container {
+    width: 900px;
+    display: flex;
+    gap: 30px;
+}
 
+.header-content {
+flex: 1 1 100px;
 }
 
 .header-content h2{
@@ -71,12 +83,12 @@ header {
 }
 
 .header-image {
-    width: 400px;
-    height: 200px;
     background-color: lightgrey;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 1 1 100px;
+
 }
 
 header .header-content,
@@ -112,7 +124,7 @@ header button {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25px;
+    gap: 35px;
 }
 
 .tile-item {
@@ -132,11 +144,17 @@ header button {
 
 }
 
+.tile-text {
+    padding: 10px 0 0 0;
+    color:#1F2937;
+}
+
 .quote-section {
     display: flex;
     background-color: #E5E7EB;
     padding: 0 100px;
     height: 400px;
+    justify-content: center;
 }
 
 .quote {
@@ -144,10 +162,11 @@ header button {
     flex-direction: column;
     align-items: center;
     margin: auto 0 auto 0;
+    width: 700px;
 }
 
 .quote-text {
-    font-size: 36px;
+    font-size: 30px;
     font-style: italic;
     color: #1F2937;
     margin-bottom: 0px;
@@ -184,11 +203,13 @@ footer {
 
 .footer-text-header {
     color: #f9FAF8;
+    font-size: 20px;
 
 }
 
 .footer-text-text {
     color: #E5E7EB;
+    
 }
 
 .button {
