@@ -224,3 +224,21 @@ footer {
     border-radius: 4px;
 
 }
+
+.copywright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+}
+
+.copywright-container {
+    width: 800px;
+    display: flex;
+    justify-content: center;
+}
+
+.copywright-text {
+    color: #F9FAF8;
+}
